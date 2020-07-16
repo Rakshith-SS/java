@@ -2,9 +2,8 @@ import java.util.Scanner;
 
 public class Floyd {
     public static void main(String[] args) {
-        int n,i,j,n=1;
-        k=6;
-        for (i=1; i<=n ;i++)
+        int i,j,n=1,rows=7;
+        for (i=1; i<=rows ;i++)
         {
            for (j=1 ;j<=i ;j++)
              {
